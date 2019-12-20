@@ -43,7 +43,10 @@ To build and compile maven, Java 8
 ### How to run tests
 ```bash
 mvn clean test verify
+#in case sonar is there
+mvn -Dsonar.host.url=<sonar.url> clean test verify sonar:sonar package
 ```
+Jococo coverage report would be in target directory
 ### How to run it 
 
 - #### on mac or linux 
