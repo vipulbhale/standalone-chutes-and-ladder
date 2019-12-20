@@ -80,6 +80,8 @@ cd ~/.m2/repository/com/candidate/priceline/standalone-chutes-and-ladder/1.0-SNA
 unzip standalone-chutes-and-ladder-1.0-SNAPSHOT-distribution.zip
 cd standalone-chutes-and-ladder-1.0-SNAPSHOT/unix
 java -Denvironment=<environmentname> -cp ./lib -jar ./standalone-chutesladders-1.0-SNAPSHOT.jar JOHN JOE PETER DAVID
+#for e.g.
+java -Denvironment=dev -cp ./lib -jar ./standalone-chutesladders-1.0-SNAPSHOT.jar JOHN JOE PETER DAVID
 ```
 
 - #### on windows 
@@ -109,6 +111,8 @@ cd target/
 unzip standalone-chutes-and-ladder-1.0-SNAPSHOT-distribution.zip
 cd standalone-chutes-and-ladder-1.0-SNAPSHOT/windows
 java -Denvironment=<environmentname> -cp lib -jar standalone-chutesladders-1.0-SNAPSHOT.jar TOM DICK HARRY
+#for e.g.
+java -Denvironment=dev -cp ./lib -jar ./standalone-chutesladders-1.0-SNAPSHOT.jar JOHN JOE PETER DAVID
 ```
 
 ### TODO
